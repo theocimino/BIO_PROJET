@@ -22,17 +22,27 @@ Ou bien remplacer ```.``` par ```./chemin/vers/la/racine/du/projet``` si non pla
 ```bash
     pkg> instantiate
 ```   
-- Pour tester la config run le code test : 
+- Pour tester la config julia run le code test : 
 ```bash
 julia --project=./chemin/vers/la/racine/du/projet test_setup.jl
 ```
-Ou bien depuis l'interface graphique VSCode
+Ou bien depuis l'interface graphique VSCode après avoir ouvert [tes_dev](./code/test_dev.jl)
+
+- Pour tester la config globale Julia + notebook jupyter
+    - ouvrir le notebook [test_dev_nb](./code/test_dev_nb.ipynb)
+    - Sélectionner le kernel lié à l'env créé à l'instant
+    - run la cellule de test
 
 ### A chaque utilisation : 
 - On active l'env de dev :   
 ```bash
     julia --project=.
 ```
+
+- Pour run du code dans un notebook jupyter : 
+    - Ouvrir un créer un .ipynb
+    - Selectionner le kernel julia en local
+    - run les cellules
 
 - Pour run du code dans un fichier .jl : 
 ```bash

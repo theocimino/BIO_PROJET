@@ -16,7 +16,7 @@ println("4. Valeurs propres OK: ", eigvals(A))
 try
     using Plots
     plot(rand(10), label="Random", title="Julia + Plots OK !")
-    savefig("test_plot.png")
+    savefig("./output/test_plot.png")
     println("5. Plots OK (test_plot.png créé)")
 catch e
     println("5. Plots non installé (normal premier test)")

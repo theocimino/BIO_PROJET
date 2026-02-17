@@ -29,3 +29,5 @@ JuliaLocalPreferences.toml
 
 test_dev_nb.ipynb
 test_dev.jl
+
+output/

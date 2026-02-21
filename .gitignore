@@ -29,5 +29,5 @@ JuliaLocalPreferences.toml
 
 test_dev_nb.ipynb
 test_dev.jl
-
+r_function.ipynb
 output/
